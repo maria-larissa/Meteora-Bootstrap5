@@ -1,0 +1,41 @@
+:root{
+    --color-green:#DAFF01;
+    --color-violet: #9353FF;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.text-small{
+    font-size: 0.821rem;
+}
+
+.divs-facilities{
+    width: 20rem;
+}
+
+.payments-metods{
+    color: var(--color-green);
+}
+
+.btn-product-color{
+    background-color: var(--color-violet);
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
